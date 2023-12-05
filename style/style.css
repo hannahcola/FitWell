@@ -31,14 +31,14 @@ h1 {
 p {
 	color: DarkSlateGray; 
 	font-size: 16px; 
-	font-family: candara, sans-serif;
+	font-family: oxygen, sans-serif;
 }
 
 /* List Styles */
 ul {
 	color: DarkSlateGray; 
 	font-size: 16px;
-	font-family: candara, sans-serif;
+	font-family: oxygen, sans-serif;
 	list-style: square;
 }
 
@@ -52,7 +52,7 @@ nav > ul {
 #nav a { 
 	color: saddlebrown; 
 	font-size: 16px;
-	font-family: candara, sans-serif;
+	font-family: oxygen, sans-serif;
 	list-style: square;
 	list-style-type: none;
 	text-decoration: none;
@@ -120,7 +120,7 @@ td {
 button {
 	color: DarkSlateGray; 
 	font-size: 18px; 
-	font-family: candara, sans-serif;
+	font-family: oxygen, sans-serif;
 	border-radius: 5px;
 }
 
@@ -144,7 +144,7 @@ button {
 
 form {
 	color: DarkSlateGray; 
-	font-family: candara, sans-serif;
+	font-family: oxygen, sans-serif;
 	margin: 10px 10px;
 	display: flex;
 	flex-flow: row wrap;
