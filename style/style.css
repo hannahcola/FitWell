@@ -1,0 +1,197 @@
+@charset "utf-8";
+
+/* 
+	New Perspectives on HTML 5 and CSS, 8th Edition
+
+	Author: Hannah Coladilla
+	Date last updated: 12/4/2023
+	
+	Filename: style.css
+*/
+
+/* NOTE TO SELF: CHANGE ALL OF THESE TO FIT NEW WEBSITE AESTHETIC. */
+
+/* Heading Styles */
+
+h2 {
+	color: DarkOliveGreen; 
+	font-family: candara, sans-serif;
+	background-color: rgb(197, 215, 197);
+}
+
+h1 {
+	color: rgb(71, 77, 30); 
+	font-family: candara, sans-serif;
+	background-image: url('dots.jpg');
+	background-size: 50%;
+}
+
+/* Paragraph Styles */
+
+p {
+	color: DarkSlateGray; 
+	font-size: 18px; 
+	font-family: candara, sans-serif;
+}
+
+/* List Styles */
+ul {
+	color: DarkSlateGray; 
+	font-size: 18px;
+	font-family: candara, sans-serif;
+	list-style: square;
+}
+
+/* Nav Style */
+
+nav > ul {
+	padding-left: 5px;
+	list-style-type: none;
+}
+
+#nav a { 
+	color: saddlebrown; 
+	font-size: 18px;
+	font-family: candara, sans-serif;
+	list-style: square;
+	list-style-type: none;
+	text-decoration: none;
+	transition: font-size 1s ease, color 1s ease;
+}
+
+#nav a:visited {
+	color: cadetblue;
+}
+
+#nav a:hover {
+	font-size: 20px;
+	color: goldenrod;
+}
+
+#nav a:active {
+	color: crimson;
+}
+
+/* Padding Styles */
+
+.custom_padding {
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+.center_padding {
+	padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+	text-align: center;
+}
+
+.playbutton_padding {
+	margin-left: 135px;
+}
+
+/* Table Syles */
+
+table {
+	border: 1px solid DarkSlateGray;
+	border-color: DarkSlateGray;
+	border-spacing: 10px;
+	border-collapse: collapse;
+	background: linear-gradient(white, rgb(197, 215, 197));
+}
+
+th {
+	color: DarkOliveGreen;
+	background-color: rgb(197, 215, 197);
+	border: 1px solid DarkSlateGray;
+}
+
+td {
+	color: DarkSlateGray;
+	padding: 3px;
+	border: 1px solid DarkSlateGray;
+}
+
+/* Button Style */
+
+button {
+	color: DarkSlateGray; 
+	font-size: 18px; 
+	font-family: candara, sans-serif;
+	border-radius: 5px;
+}
+
+#email_button {
+	background: none;
+	border: 2px solid DarkSlateGray;
+	transition: background-color 1s;
+}
+
+#email_button:hover {
+	background-color: rgb(197, 215, 197);
+	border: 2px solid DarkSlateGray;
+}
+
+#email_button:visited {
+	background-color: rgb(157, 180, 154);
+	border: 2px solid DarkSlateGray;
+}
+	
+/* Form Styles */
+
+form {
+	color: DarkSlateGray; 
+	font-family: candara, sans-serif;
+	margin: 10px 10px;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+form > fieldset {
+	border-radius: 20px;
+	padding: 5px;
+	margin: 10px;
+	flex: 1 1 300px;
+}
+
+legend {
+	font-size: 30px;
+	padding: 2px;
+}
+
+div.formRow {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 10px 10px;
+}
+
+div.formRow2 {
+	margin: 10px 10px;
+}
+
+div.formRow > * {
+	flex: 1 1 300px;
+}
+
+/* Link Style */
+
+a { 
+	color: saddlebrown;
+	transition: color 1s;
+}
+
+a:visited {
+	color: cadetblue;
+	transition: color 1s;
+}
+
+a:hover {
+	color: goldenrod;
+}
+
+a:active {
+	color: crimson;
+}
