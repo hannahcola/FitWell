@@ -15,29 +15,29 @@
 
 h2 {
 	color: DarkOliveGreen; 
-	font-family: candara, sans-serif;
+	font-family: oswald, sans-serif;
+	font-size: 18px;
 	background-color: rgb(197, 215, 197);
 }
 
 h1 {
 	color: rgb(71, 77, 30); 
-	font-family: candara, sans-serif;
-	background-image: url('dots.jpg');
-	background-size: 50%;
+	font-family: oswald, sans-serif;
+	font-size: 18px;
 }
 
 /* Paragraph Styles */
 
 p {
 	color: DarkSlateGray; 
-	font-size: 18px; 
+	font-size: 16px; 
 	font-family: candara, sans-serif;
 }
 
 /* List Styles */
 ul {
 	color: DarkSlateGray; 
-	font-size: 18px;
+	font-size: 16px;
 	font-family: candara, sans-serif;
 	list-style: square;
 }
@@ -51,7 +51,7 @@ nav > ul {
 
 #nav a { 
 	color: saddlebrown; 
-	font-size: 18px;
+	font-size: 16px;
 	font-family: candara, sans-serif;
 	list-style: square;
 	list-style-type: none;
