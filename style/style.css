@@ -9,62 +9,96 @@
 	Filename: style.css
 */
 
-/* NOTE TO SELF: CHANGE ALL OF THESE TO FIT NEW WEBSITE AESTHETIC. */
+/* NOTES:
+
+2, 19, 39 = darkest blue
+4, 51, 98 = dark blue
+66, 122, 161 = light blue
+235, 242, 250 = alice blue
+ebf2fa = hex
+
+103, 148, 54 = green
+165, 190, 0 = yellow green
+
+*/
 
 /* Heading Styles */
 
-h2 {
-	color: DarkOliveGreen; 
+h1 {
+	color: rgb(4, 51, 98); 
 	font-family: oswald, sans-serif;
-	font-size: 18px;
-	background-color: rgb(197, 215, 197);
+	font-size: 60px;
+	background-color: rgb(66, 122, 161);
+	margin: 0;
+	text-align: center;
 }
 
-h1 {
-	color: rgb(71, 77, 30); 
+h2 {
+	color: rgb(4, 51, 98); 
 	font-family: oswald, sans-serif;
 	font-size: 18px;
+	background-color: rgb(66, 122, 161);
 }
 
 /* Paragraph Styles */
 
 p {
-	color: DarkSlateGray; 
+	display: block;
+	color: rgb(2, 19, 39); 
 	font-size: 16px; 
 	font-family: oxygen, sans-serif;
 }
 
+
+/* Body Style */
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* Image Styles */
+
+img {
+	float: right;
+}
+
 /* List Styles */
+
 ul {
-	color: DarkSlateGray; 
+	color: rgb(2, 19, 39); 
 	font-size: 16px;
 	font-family: oxygen, sans-serif;
 	list-style: square;
+	display: inline-block;
 }
 
 /* Nav Style */
 
-nav > ul {
-	padding-left: 5px;
-	list-style-type: none;
+nav a {
+	font-size: 25px;
+	text-align: center;
+	padding: 14px 16px;
+	float: left;
+	width: 23%;
+	background-color: rgb(66, 122, 161);
+	text-decoration: none;
+	transition: color 1s ease;
 }
 
-#nav a { 
-	color: saddlebrown; 
-	font-size: 16px;
-	font-family: oxygen, sans-serif;
-	list-style: square;
+nav > ul {
 	list-style-type: none;
-	text-decoration: none;
-	transition: font-size 1s ease, color 1s ease;
+	background-color: rgb(66, 122, 161);
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 #nav a:visited {
-	color: cadetblue;
+	color: rgb(165, 190, 0);
 }
 
 #nav a:hover {
-	font-size: 20px;
 	color: goldenrod;
 }
 
@@ -81,23 +115,11 @@ nav > ul {
     padding-left: 20px;
 }
 
-.center_padding {
-	padding-top: 5px;
-    padding-right: 20px;
-    padding-bottom: 5px;
-    padding-left: 20px;
-	text-align: center;
-}
-
-.playbutton_padding {
-	margin-left: 135px;
-}
-
 /* Table Syles */
 
 table {
-	border: 1px solid DarkSlateGray;
-	border-color: DarkSlateGray;
+	border: 1px solid rgb(2, 19, 39);
+	border-color: rgb(2, 19, 39);
 	border-spacing: 10px;
 	border-collapse: collapse;
 	background: linear-gradient(white, rgb(197, 215, 197));
@@ -106,19 +128,19 @@ table {
 th {
 	color: DarkOliveGreen;
 	background-color: rgb(197, 215, 197);
-	border: 1px solid DarkSlateGray;
+	border: 1px solid rgb(2, 19, 39);
 }
 
 td {
-	color: DarkSlateGray;
+	color: rgb(2, 19, 39);
 	padding: 3px;
-	border: 1px solid DarkSlateGray;
+	border: 1px solid rgb(2, 19, 39);
 }
 
 /* Button Style */
 
 button {
-	color: DarkSlateGray; 
+	color: rgb(2, 19, 39); 
 	font-size: 18px; 
 	font-family: oxygen, sans-serif;
 	border-radius: 5px;
@@ -126,24 +148,24 @@ button {
 
 #email_button {
 	background: none;
-	border: 2px solid DarkSlateGray;
+	border: 2px solid rgb(2, 19, 39);
 	transition: background-color 1s;
 }
 
 #email_button:hover {
 	background-color: rgb(197, 215, 197);
-	border: 2px solid DarkSlateGray;
+	border: 2px solid rgb(2, 19, 39);
 }
 
 #email_button:visited {
 	background-color: rgb(157, 180, 154);
-	border: 2px solid DarkSlateGray;
+	border: 2px solid rgb(2, 19, 39);
 }
 	
 /* Form Styles */
 
 form {
-	color: DarkSlateGray; 
+	color: rgb(2, 19, 39); 
 	font-family: oxygen, sans-serif;
 	margin: 10px 10px;
 	display: flex;
@@ -195,3 +217,15 @@ a:hover {
 a:active {
 	color: crimson;
 }
+
+/* Text Style */
+
+.whiteborder {
+    text-shadow:
+    -1px -1px 0px #ebf2fa,
+    1px -1px 0px #ebf2fa,
+    -1px 1px 0px #ebf2fa,
+    1px 1px 0px #ebf2fa;  
+}
+
+
