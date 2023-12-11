@@ -3,7 +3,7 @@
 <head>
 	<!-- 
 	Author: Hannah Coladilla
-	Date last updated: 12/4/2023
+	Date last updated: 12/10/2023
 	
 	Filename: booking.html
 	-->
@@ -12,12 +12,169 @@
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 
-<body>
+<body style="background-color: rgb(235, 242, 250);">
 
-<!-- NOTES:
+	<nav>
+		<ul id="nav" class="navbar">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="class_schedule.html">Classes</a></li>
+			<li><a href="trainers.html">Trainers</a></li>
+			<li><a href="booking.html">Booking</a></li>
+		</ul>
+	</nav>
+	
+	<div class="custom_padding">
+		<h1 id="top">FitWell Personal Trainer Booking</h1>
+	</div>
 
-- 
+<form class="custom_padding">
+	<fieldset id="submitter_info">
+		<legend>Your Information</legend>
+		<div class="formRow">
+			<label for="f_name">First Name</label>
+			<input type="text" id="f_name">
+		</div>
+	
+		<div class="formRow">
+			<label for="l_name">Last Name</label>
+			<input type="text" id="l_name">
+		</div>
+		
+		<div class="formRow">
+			<label for="mail">Email Address</label>
+			<input type="mail" id="mail" placeholder="example@gmail.com">
+		</div>
+		
+		<div class="formRow">
+			<label for="number">Phone Number</label>
+			<input type="tel" id="number" placeholder="(XXX)-XXX-XXXX">
+		</div>
+		
+		<div class="formRow2">
+			<br><label for="updates">Would you like to receive email updates for promotional
+			offers and events? This is optional and you are able to unsubscribe at any time.
+			</label><br>
+			<input type="checkbox" id="updates"><label for="updates">Yes, I would like to receive
+			email updates.</label>
+		</div>
+		
+	</fieldset>
+	
+	<fieldset id="submitter_feedback">
+	<legend>Your Feedback</legend>
+	
+		<div class="formRow">
+			<label for="date">When would you like to book your session?</label>
+			<input type="date" id="date">
+		</div>
+		
+		<div class="formRow2">
+			<label>Which trainer would you like to book? (Select one)</label><br>
+			
+			<input type="radio" name="trainer" id="Option_1">
+			<label for="Option_1">Rhett Stephens</label><br>
+			
+			<input type="radio" name="trainer" id="Option_2">
+			<label for="Option_2">Mikayla Ramirez</label><br>
+			
+			<input type="radio" name="trainer" id="Option_3">
+			<label for="Option_3">Warren Young</label><br>
+		
+		</div>
+		
+	
+		<div class="formRow2">
+			<label>Any special notes for our trainer?</label><br>
+			<textarea rows="5" cols="50"> </textarea>
+		</div>
+		
+		<div class="center_padding">
+			<input type="submit" value="Submit Form">
+				
+			<input type="reset" value="Reset Form">
+		</div>
+		
+	</fieldset>
+	
+</form>
 
--->
+	<div class="custom_padding">
+		<h1 id="header1">FitWell Class Attendance</h1>
+	</div>
+	
+	<form class="custom_padding">
+		<p><strong>NOTE: BOOKING IS NOT REQUIRED TO ATTEND CLASSES!</strong>
+		FitWell offers walk-ins, and all members of FitWell can join in and leave at any time.
+		However, submitting a form here is helpful for instructors to plan for
+		the amount of attendees.</p>
+	<fieldset id="submitter_info">
+		<legend>Your Information</legend>
+		<div class="formRow">
+			<label for="f_name">First Name</label>
+			<input type="text" id="f_name">
+		</div>
+	
+		<div class="formRow">
+			<label for="l_name">Last Name</label>
+			<input type="text" id="l_name">
+		</div>
+		
+		<div class="formRow">
+			<label for="mail">Email Address</label>
+			<input type="mail" id="mail" placeholder="example@gmail.com">
+		</div>
+		
+		<div class="formRow">
+			<label for="number">Phone Number</label>
+			<input type="tel" id="number" placeholder="(XXX)-XXX-XXXX">
+		</div>
+		
+		<div class="formRow2">
+			<br><label for="updates">Would you like to receive email updates for promotional
+			offers and events? This is optional and you are able to unsubscribe at any time.
+			</label><br>
+			<input type="checkbox" id="updates"><label for="updates">Yes, I would like to receive
+			email updates.</label>
+		</div>
+		
+	</fieldset>
+	
+	<fieldset id="submitter_feedback">
+	<legend>Your Feedback</legend>
+	
+		<div class="formRow">
+			<label for="date">When would you like to book your session?</label>
+			<input type="date" id="date">
+		</div>
+		
+		<div class="formRow2">
+			<label>What class are you attending? (Select one)</label><br>
+			
+			<input type="radio" name="fitwell_class" id="Option_1">
+			<label for="Option_1">Beginner Swimmer's Lesson</label><br>
+			
+			<input type="radio" name="fitwell_class" id="Option_2">
+			<label for="Option_2">Pump It Up: Dance Class</label><br>
+			
+			<input type="radio" name="fitwell_class" id="Option_3">
+			<label for="Option_3">Jump Rope Cardio</label><br>
+			
+			<input type="radio" name="fitwell_class" id="Option_4">
+			<label for="Option_4">Intermediate Boxing</label><br>
+			
+			<input type="radio" name="fitwell_class" id="Option_5">
+			<label for="Option_5">Cardio Killer Dances</label><br>
+			
+		</div>
+		
+		<div class="center_padding">
+			<input type="submit" value="Submit Form">
+				
+			<input type="reset" value="Reset Form">
+		</div>
+		
+	</fieldset>
+	
+</form>
 
 </body>
